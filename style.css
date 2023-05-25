@@ -49,9 +49,11 @@ main{
     max-width: 100vh;
 }
 
-.container-profili{
+.profili{
     width: 33%;
     background-color: #0F0E17;
+    padding: 4px;
+    border: 1px solid red;
 }
 
 li{
@@ -72,8 +74,12 @@ ul{
     height: 100px;
     }
 
-.container-profili::after{
+main , .profili::after{
 content: " ";
 display : table;
 clear: both;
+}
+
+.container{
+    float: left;
 }
