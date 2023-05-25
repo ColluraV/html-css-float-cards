@@ -12,23 +12,25 @@ body{
 
 header , #main-title {
 
-    padding-top: 30px;
+    padding-top: 25px;
     padding-bottom: 30px;
 
 }
 
 header{
     background-color: brown;
-    min-width: 720px;
+    width: auto;
     text-align: center;
     height: auto;
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1000px;
+    max-width: 100vh;
 }
 
 #main-title{
     color: pink;
-    font-size:50px;
+    font-size:40px;
     line-height: 60px;
     /*padding: auto;*/
 
