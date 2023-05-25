@@ -2,19 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: fantasy;
   }
   
 body{
     display: inline;
-    background-color: blue;
-
 }
 
-header , #main-title , main {
+.lorem{
+    font-size: larger;
+    }
 
+header , #main-title , main {
     padding-top: 25px;
     padding-bottom: 30px;
-
 }
 
 header{
@@ -38,34 +39,33 @@ main,header{
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    min-width: 1300px;
+    min-width: 1420px;
     max-width: 100vh;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .profili{
-    width: 350px;
+    width: 380px;
     background-color: #0F0E17;
-    /*padding: 4px;*/
-    border: 1px solid red;
     height: 105px;
 }
 
 li{
     list-style: none;
     vertical-align: middle;
-    line-height: 33px;
+    line-height: 40px;
     margin-left: 10px;
     color: white;
 }
+
 img{
-    width: 100px;
-    line-height: 105px;
+    width: 120px;
     float: left;
-    /*margin-left: 10px;*/
 }
+
 ul{
     float:left;
-    height: 100px;
     }
 
 main , .profili , .container::after{
@@ -76,9 +76,11 @@ clear: both;
 
 .container{
     float: left;
-    border: 4px solid rgb(#7D53CC);
-    background-color: rgb(57, 51, 121);
+    background-image: radial-gradient(#04040451 0%, #ffffff 100%);
     padding: 10px;
-    margin: 5px;
-    
+    border-radius: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
